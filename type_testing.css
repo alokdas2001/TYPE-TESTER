@@ -1,0 +1,156 @@
+body{
+	
+	background-image: url("background-img.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-color:#A9DFBF;
+	text-align:center;
+	background-size: 1600px;
+  
+	
+	
+}
+
+/*=============================LOGIN PAGE  STARTS ==================*/
+
+#header{
+	
+	text-align:center;
+	text-shadow: 2px 2px #ff0000;
+	color:#626567; 
+	font-size:40px;
+	font-weight:bold;
+	text-decoration: underline;
+	text-decoration-color: red;
+	transition-duration: 3s;
+	transition-delay: 0s;
+
+}
+
+#header:hover{
+	
+	width:100%;
+}
+
+
+#form{
+	
+	background-color:#FDFEFE;
+	width:350px;
+	height:450px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:5px;
+	border: solid 2px black;
+}
+
+.logo{
+	
+	display:block;
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	transition-duration: 5s;
+	transition-delay: 0s;	
+}
+
+.logo:hover{
+	
+	width:100%;
+}
+
+
+#form input {
+	border: solid 2px black;
+	width:90%;
+	height:30px;
+	
+}
+
+.form_default{
+	
+	color:red;
+	font-family:arial;
+	
+}
+
+.submit{
+	
+	color:white;
+	background-color:#3498DB;
+	height:25px;
+	margin-left:auto;
+	margin-right:auto;
+	display: block;
+	
+}
+
+/*=============================LOGIN PAGE  ENDS ==================*/
+
+
+/*============================= TYPE TESTING PAGE  ==================*/
+
+#input{
+	
+	width:600px;
+	height:140px;
+	background-color:#85C1E9; 
+	margin-left:auto;
+	margin-right:auto;
+	padding :10px;
+	
+	
+}
+#given{
+	
+	width:600px;
+	height:140px;
+	background-color:#85C1E9; 
+	margin-left:auto;
+	margin-right:auto;
+
+}
+
+#timer{
+	
+	  height:30px;
+	  width:40px;
+	  font-weight:bold;
+	  font-size:20px;
+}
+
+#wpm{
+	
+	width:45px;
+	height:30px;
+}
+
+.name{
+	
+	color:#1C2833;
+	font-weight:bold;
+	font-size:20px;
+	background-color:#73C6B6;
+}
+
+
+#ty{
+	
+	color:white;
+	background-color:black;
+	width:450px;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+
+#ty:hover{
+	
+	color:black;
+	background-color:white;
+
+}
+
+
+

@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head> <title> TYPE TESTING WEB</title>   </head>
+<script src="type_testing.js"> </script>
+<link type="text/css" rel="stylesheet" href="type_testing.css">
+
+<body>
+
+<h2 id="header"> TYPE TESTING WEB </h2>
+<br><br><br><br><br><br>
+
+<div >
+
+<h1 id="ty">  </h1>
+
+</div>
+<br>
+
+
+<label class="name"> WORD PER MIN </label> <input readonly  type="text" id="wpm">
+<br>
+
+<div id="box">
+
+<form onsubmit="return false">
+
+	<div >
+	
+
+		<p id="given"> CLICK REFRESH TO GET YOUR PARAGRAPH</p>  
+		
+		<button value="" class="submit" onclick="refresh(); this.onclick=null;" > REFRESH </button>
+
+	</div><br><br>
+	
+	<label class="name"> TIME  </label> <input readonly  type="text" id="timer"> <br><br>
+	
+	
+	
+	<textarea type="text" id="input" value="" onclick="time(); this.onclick=null; " onpaste = "return false"  ></textarea>
+	
+	<!-- A function is triggered when the user releases a key in the input field --> >
+	<br>
+	
+</form>	
+
+</div>
+
+<br>
+<button value="" class="submit" onclick="time(); this.onclick=null;" > START </button>
+
+</body>
+
+</html>
+
+
